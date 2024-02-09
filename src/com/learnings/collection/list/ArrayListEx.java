@@ -26,7 +26,7 @@ public class ArrayListEx {
         System.out.println(strArrList);
         System.out.println(arrList);
 
-        // How to convert Array to ArrayList ??
+        // How to convert Array to ArrayList ?? ASK
         int[] intArr = new int[2];
         intArr[0] = 1;
         intArr[1] = 2;

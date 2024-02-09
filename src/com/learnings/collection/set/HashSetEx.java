@@ -5,6 +5,16 @@ import java.util.HashSet;
 
 public class HashSetEx {
     public static void main(String[] args) {
+
+        HashSet<String> hs = new HashSet<>();
+        hs.add("A");
+        hs.add("B");
+        hs.add("C");
+        hs.add("D");
+
+        System.out.println(hs);
+
+
         // Instantiate an object of HashSet
         HashSet<ArrayList> set = new HashSet<>();
 
