@@ -1,7 +1,7 @@
 package com.learnings.inheritance;
 
 public class Car {
-    int seats = 4;
+    public int seats = 4;
     public void speed() {
         System.out.println("Car has max speed of 140 km/h...");
     }
@@ -11,7 +11,7 @@ public class Car {
     String fuelType = "Petro/Diesel";
 }
 class DragCar extends Car {
-    int seats = 1;
+    public int seats = 1;
     String fuelType = "Jet Engine Fuel";
     public void speed() {
         System.out.println("DragCar has max speed of 500 km/h...");
@@ -30,7 +30,7 @@ class Display {
         Car c1 = new DragCar();
         c1.getWheelNumber();
         c1.speed(); // priority is given to object in case of overridden method
-        System.out.println("Seats "+c1.seats); // priority is given to reference in case of variable
+        System.out.println("Seats "+c1.seats); // priority is given to reference in case of variable  Decided on compile time
         System.out.println("Fuel is "+c1.fuelType); // priority is given to reference in case of variable
     }
 }

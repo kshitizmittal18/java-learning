@@ -1,5 +1,8 @@
 package com.learnings.overloading;
 
+import java.util.ArrayList;
+import java.util.List;
+
 class Product {
     // Method 1
     // Multiplying two integer values
@@ -57,9 +60,11 @@ public class Overloading {
 
         // Calling method to multiply n numbers
         // How to handle dynamic data types ?? ASK
-        int prod3 = dp.multiply(45, 85 , 12, 5, 23);
+        var prod3 = dp.multiply(45, 85 , 12, 5, 23);
 
         // Printing product of 3 numbers
         System.out.println("Product of the n integer values :" + prod3);
+
+//        var List = new ArrayList<>();
     }
 }
